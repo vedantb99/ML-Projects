@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+*.env
+
+# IDE / Editor specific
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --- Project Specific ---
+
+# Data
+# Never commit datasets!
+data/
+
+# Model Checkpoints
+# These are large binary artifacts, not source code
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Log files or run artifacts
+logs/
+*.log

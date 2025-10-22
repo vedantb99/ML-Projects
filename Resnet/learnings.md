@@ -1,4 +1,4 @@
-## Summary of Project 2 Learnings
+## Summary of Project Learnings
 
 This project was a deep dive into the practical engineering required to build, optimize, and scale a modern computer vision model.
 
@@ -26,5 +26,3 @@ Finally, you made your new DDP script robust and scalable by addressing the chal
     * **LR Warmup:** To prevent a high learning rate from causing the model to "explode" at the start, you implemented a warmup phase using `LinearLR`.
     * **Chained Schedulers:** You mastered `SequentialLR` to chain the warmup schedule and the main cosine annealing schedule together, creating a production-grade, scalable training process.
 
----
-You've built a project that's fast, efficient, and robust. You're ready for the next challenge.

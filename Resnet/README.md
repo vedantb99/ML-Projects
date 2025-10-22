@@ -1,6 +1,3 @@
-Great, you're all set. Thinking about version control hygiene *before* you push is a sign of a pro.
-
-
 # High-Performance Multi-GPU Image Classification
 
 This project implements a production-grade, multi-GPU training pipeline for an image classifier. Starting from a single-GPU baseline, the project is systematically scaled and optimized to run on multi-GPU hardware using **PyTorch's `DistributedDataParallel (DDP)`**.

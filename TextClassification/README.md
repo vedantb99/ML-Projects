@@ -1,4 +1,4 @@
-# Project 3: High-Performance Transformer Fine-Tuning with DDP
+# High-Performance Transformer Fine-Tuning with DDP
 
 This project demonstrates the complete workflow for fine-tuning a modern Transformer model for a downstream NLP task. The project starts with a simple, single-GPU baseline and is then refactored into a high-performance, multi-GPU pipeline using **PyTorch's `DistributedDataParallel (DDP)`**.
 

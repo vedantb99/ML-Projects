@@ -1,0 +1,51 @@
+# =====================================================
+# Python standard ignores
+# =====================================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+*.log
+
+# =====================================================
+# Checkpoints and model weights
+# =====================================================
+# Hugging Face model directories
+distilbert-sst2-finetuned/
+distilbert-sst2-ddp/
+runs/
+outputs/
+checkpoints/
+models/
+*.bin
+*.ckpt
+*.pt
+*.pth
+
+# =====================================================
+# Datasets and cache
+# =====================================================
+data/
+cache/
+*.arrow
+*.zip
+*.tar.gz
+datasets/
+hf_cache/
+~/.cache/huggingface/
+
+# =====================================================
+# Jupyter and IDE files
+# =====================================================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# =====================================================
+# Temporary or system files
+# =====================================================
+.DS_Store
+Thumbs.db
